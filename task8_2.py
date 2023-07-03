@@ -1,0 +1,6 @@
+N=int(input("введите количество элементов списка:"))
+a = list(map(int, input().split()))
+print(a)
+a.insert(0,a[-1])
+a.pop()
+print(a)
